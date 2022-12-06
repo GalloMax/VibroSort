@@ -77,4 +77,15 @@ public class ObjectGenerator : MonoBehaviour
             Random.Range(bounds.min.z, bounds.max.z)
         );
     }
+
+    //ADDED
+    public int GetBinNumberOfCategory(int category){
+        for(int i = 0; i < bins.Length; i++){
+            if(category == (int) bins[i].transform.GetChild(0).GetComponent<BinCheck>().binCategory){
+                return i;
+            }
+        }
+
+        return -1;
+    }
 }

@@ -157,6 +157,8 @@ MonoBehaviour:
   - 0
   - 0
   isLoopableHaptic: 0
+  mySceneGenerator: {fileID: 0}
+  objectGenerator: {fileID: 0}
   objectCategory: 4
 --- !u!114 &34720051338858038
 MonoBehaviour:
